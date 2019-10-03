@@ -89,12 +89,12 @@ X_train, X_test, y_train, Y_test = train_test_split(X,
 # Import MinMaxScaler
 from sklearn.preprocessing import MinMaxScaler
 
-# Scaling X_train and X_test
+# Recaling X_train and X_test
 scaler = MinMaxScaler(feature_range=(0, 1))
 rescaledX_train = scaler.fit_transform(X_train)
 rescaledX_test = scaler.transform(X_test)
 
-#Rescaling the dataset
+
 rescaledX = scaler.transform(X)
 
 from sklearn.ensemble import RandomForestClassifier
