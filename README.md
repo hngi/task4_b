@@ -4,4 +4,4 @@
 
   You can also run the file on a python console
 
-  __After the initial prediction and grid searching, it asks if you want to check other models, you type in 'y' if you want to__
+  _After the initial prediction and grid searching, it asks if you want to check other models, you type in 'y' if you want to_
